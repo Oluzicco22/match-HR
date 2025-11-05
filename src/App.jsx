@@ -16,7 +16,7 @@ import Settings from "./pages/Settings.jsx";
 const routes = createBrowserRouter([
     {
         path: "/register",
-        errorElement: <RegisterPage/>,
+        element: <RegisterPage/>,
         children: [
             {
                 path: "register",
